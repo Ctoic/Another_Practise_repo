@@ -12,15 +12,15 @@ int sum(int a ,int b)
     return a+b;
 }
 
-string length_str(int str)
-{
-    int count=0;
-    for(int i =0;i<6;i++)
-    {
-        count+=1;
-        return count;
-    }
-}
+// string length_str(int str)
+// {
+//     int count=0;
+//     for(int i =0;i<6;i++)
+//     {
+//         count+=1;
+//         return count;
+//     }
+// }
 
 
 int main(){
