@@ -1,0 +1,33 @@
+Now lets understand the type of constructors in C++
+Let suppose you went to a shop to buy mobile ,there are three scenerios
+1.you go to the shop and just say that I want a moble without specifying 
+the name and other attrbuutes. He will give you the mobile which is mostly sold
+,hence this s example of default constructors
+2. You went to the shop and now you are specifying name colour and everything you want in 
+your moble phone. like you said i need i phone 12 black colour he will 
+provide the phone accordinglly. THis is parametrized function.
+3.You went to the shop this time you are holding a mobile phone in your hand and you 
+say bruv i need a phone like this ,yoou show the phone physcally to the mobile
+seller. He will provide the same mobile in your hand. So i hope that you understood what I am 
+trying to convey.
+===============Parametrize Constructor==========
+--> parametrized constructor is a constructor hich takes arguments to iitialze the objects
+we have to jusst pust argument in the constructor like we do in any other functions
+
+--> When you define body of the constructor define use parameters to initialze the objects;
+--> it is used to initialze different data elements of different object with different values when they are created
+--> it is used to overload constructors
+..> yeah we can overload a constructor
+
+
+============Copy Consructors==============
+--> A copy constructor is the member function which initialize an object using 
+another object of the same class.
+-->Whenever we define one or more non-default constructors( with parameters ) for a class, 
+a default constructor( without parameters ) 
+should also be explicitly defined as the 
+compiler will not provide a default 
+constructor in this case. However,
+it is not necessary but it’s considered
+to be the best practice to always define
+ a default constructor. (Copy paste from GeekForGeeks)
